@@ -21,7 +21,7 @@ BAM_FILE=$(sed -n "${SLURM_ARRAY_TASK_ID}p" "$FILE_LIST")
 
 # Check if BAM_FILE if not empty for this SLURM array inex
 if [ ! -s "$BAM_FILE" ]; then
-        echo "Error: No .sam file found for SLURM_ARRAY_TASK_ID ${SLURM_ARRAY_TASK_ID}." >&2
+        echo "Error: No .bam file found for SLURM_ARRAY_TASK_ID ${SLURM_ARRAY_TASK_ID}." >&2
         exit 1
 fi
 
