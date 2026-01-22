@@ -1,7 +1,7 @@
 # Cho-Lab-Bash-Scripts
 
 ## Overview ##
-This repository contains bash scripts written for chromatin immunoprecipitation (ChIP) sequencing analysis for the Ken Cho Lab at UCI. With the help of online research and ChatGPT, I am learning to automate Bash pipelines. 
+This repository contains bash scripts written for chromatin immunoprecipitation (ChIP) sequencing analysis for the Ken Cho Lab at UCI.  
 
 ## Objectives ##
 These Bash scripts were written for the following purposes:
